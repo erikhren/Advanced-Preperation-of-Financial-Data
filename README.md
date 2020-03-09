@@ -29,4 +29,4 @@ Our assumption is that you cannot have a negative amount of words (we only encou
 **IPO pricing (P columns)** cannot contain 0, less than 0, and string values <br>
 This column cannot contain these values because we will use it to calculate the control and target variables. <br>
     
-**Note:** P columns are called force predictors or price leakers becasue we use them to calculate target and control variables. Therefore, they will not be included in the model (e.g. it can happen that you get 100% accuracy by including them which is unrealistic). 
+**Note:** P columns are called force predictors or price leakers becasue we use them to calculate target and control variables. Therefore, they will not be included in the model (e.g. it can happen that you get 100% accuracy by including them, which is unrealistic). 
