@@ -10,6 +10,9 @@ Understanding pricing strategies in the context of the Initial Public Offering (
 The data used for this project includes successful U.S. IPOs from more than 600 companies. Our "client" is interested in which features are most important to the "underpricing" phenomenon most commenly seen in the stock market. By using advanced and novel methods to prepare the collected IPO data, we will break down the data in order to process it through phases of a CRISP-DM model. Through this project our team experimented with many different pipelines and methods. We would like to briefly outline 2 pipelines that produced the best results after running our classification model. 
 
 
+# Data Dictionary 
+![](data_dictionary.jpeg)
+
 ## Data assumptions
 
 **IPO characteristics (C columns)** can contain 0, less than 0 values but no strings<br>
