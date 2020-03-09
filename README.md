@@ -1,6 +1,5 @@
 # Advanced Preparation of Financial Data
 ## Fairfield University
-### Erik Hren
 
 ## Goal of the Competition
 
