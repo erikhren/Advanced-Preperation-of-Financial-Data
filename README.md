@@ -10,7 +10,7 @@ Understanding pricing strategies in the context of the Initial Public Offering (
 The data used for this project includes successful U.S. IPOs from more than 600 companies. Our "client" is interested in which features are most important to the "underpricing" phenomenon most commenly seen in the stock market. By using advanced and novel methods to prepare the collected IPO data, we will break down the data in order to process it through phases of a CRISP-DM model. 
 
 # Pipeline Overview
-### We used the left pipeline at stage 2. The other is an alternative that will be incorporated in future work
+### For stage 2 we used the pipeline on the left. The other is an alternative that will be incorporated in our future work
 ![](https://github.com/erikhren/Advanced-Preperation-of-Financial-Data/blob/master/Images/PIPELINE.jpeg)
 
 # Data Dictionary 
