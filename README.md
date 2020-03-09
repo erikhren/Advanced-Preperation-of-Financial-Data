@@ -11,7 +11,7 @@ The data used for this project includes successful U.S. IPOs from more than 600 
 
 
 # Data Dictionary 
-![](data_dictionary.jpeg)
+![](https://github.com/erikhren/Advanced-Preperation-of-Financial-Data/blob/master/Images/data_dictionary.jpeg)
 
 ## Data assumptions
 
