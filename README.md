@@ -9,6 +9,8 @@ Understanding pricing strategies in the context of the Initial Public Offering (
 
 The data used for this project includes successful U.S. IPOs from more than 600 companies. Our "client" is interested in which features are most important to the "underpricing" phenomenon most commenly seen in the stock market. By using advanced and novel methods to prepare the collected IPO data, we will break down the data in order to process it through phases of a CRISP-DM model. Through this project our team experimented with many different pipelines and methods. We would like to briefly outline 2 pipelines that produced the best results after running our classification model. 
 
+# 
+![](https://github.com/erikhren/Advanced-Preperation-of-Financial-Data/blob/master/Images/PIPELINE.jpeg)
 
 # Data Dictionary 
 ![](https://github.com/erikhren/Advanced-Preperation-of-Financial-Data/blob/master/Images/data_dictionary.jpeg)
@@ -26,4 +28,4 @@ Our assumption is that you cannot have a negative amount of words (we only encou
 **IPO pricing (P columns)** cannot contain 0, less than 0, and string values <br>
 This column cannot contain these values because we will use it to calculate the control and target variables. <br>
     
-**Note:** These calculations will make P columns are called force predictors or price leakers, therefore, they will have to be removed because they will interfere with results (e.g. it can happen that you get 100% accuracy by including them which is unrealistic). 
+**Note:** P columns are called force predictors or price leakers becasue we use them to calculate target and control variables. Therefore, they will not be included in the model (e.g. it can happen that you get 100% accuracy by including them which is unrealistic). 
