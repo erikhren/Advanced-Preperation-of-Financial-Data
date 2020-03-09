@@ -1,5 +1,6 @@
-# BA 545 Course Project 1: Advanced Preparation of Financial Data
-## Spring 2020
+# Advanced Preparation of Financial Data
+## Fairfield University
+### Erik Hren
 
 ## Goal of the Competition
 
