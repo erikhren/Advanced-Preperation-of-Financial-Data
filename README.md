@@ -24,7 +24,7 @@ That is because finance/accounting determinants can be 0 or be negative (e.g. EP
 **Sentiment characteristics (S columns)** can contain 0 values but cannot be less than 0 or have strings<br>
 Our assumption is that you cannot have a negative amount of words (we only encountered 2). We decided we will allow 0 values here because there aren't many. Our reasoning this section to contain 0 values is becasue of the difficulty translating sentimental analysis for companies not in the US and lack of data. <br>
 
-**Textual Characteristics (T3-T5 columns )** can contain 0 and less than 0 values but no strings, however, **T1 and T2** (Nbr of sentences, number of words respectively) cannot contain 0, less than 0, and no string values. Our assumption is the same that you simply cannot have a negative or zero amount of words. <br>
+**Textual Characteristics (T3-T5 columns )** can contain 0 and less than 0 values but no strings, however, **T1 and T2** (Nbr of sentences, number of words respectively) cannot contain 0, less than 0, and no string values. Our assumption here is the same, you simply cannot have a negative or zero amount of words. <br>
 
 **IPO pricing (P columns)** cannot contain 0, less than 0, and string values <br>
 This column cannot contain these values because we will use it to calculate the control and target variables. <br>
