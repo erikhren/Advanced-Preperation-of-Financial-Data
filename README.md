@@ -7,9 +7,10 @@ Explore the "underpricing" phenomenon most commonly seen in the stock market. In
 
 Understanding pricing strategies in the context of the Initial Public Offering (IPO) process has been receiving much attention. Most prior studies have however focused on information sources from post issuance periods, and understanding such strategies from the management’s perspective during the IPO process is still an open research issue. Form 424 variants, as finalized IPO prospectus approved by Security Exchange Committee (SEC), contain rich and genuine information about the issuing firms. In this study, we analyze the inter-relationships between the management’s confidence (through the proxy of sentiments expressed in textual contents in the Management’s Discussion & Analysis (MD&A) sections in the prospectus) and the pre-/post-IPO valuations.
 
-The data used for this project includes successful U.S. IPOs from more than 600 companies. Our "client" is interested in which features are most important to the "underpricing" phenomenon most commenly seen in the stock market. By using advanced and novel methods to prepare the collected IPO data, we will break down the data in order to process it through phases of a CRISP-DM model. Through this project our team experimented with many different pipelines and methods. We would like to briefly outline 2 pipelines that produced the best results after running our classification model. 
+The data used for this project includes successful U.S. IPOs from more than 600 companies. Our "client" is interested in which features are most important to the "underpricing" phenomenon most commenly seen in the stock market. By using advanced and novel methods to prepare the collected IPO data, we will break down the data in order to process it through phases of a CRISP-DM model. 
 
-# 
+# Pipeline Overview
+### We used the left pipeline at stage 2. The other is an alternative that will be incorporated in future work
 ![](https://github.com/erikhren/Advanced-Preperation-of-Financial-Data/blob/master/Images/PIPELINE.jpeg)
 
 # Data Dictionary 
